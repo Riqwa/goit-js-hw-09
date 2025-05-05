@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 24px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+.gallery-item {
+    width: calc((100% - 48px) / 3);
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
