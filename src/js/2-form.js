@@ -6,7 +6,6 @@ let formData = {
   message: '',
 };
 
-
 const savedData = localStorage.getItem(STORAGE_KEY);
 if (savedData) {
   try {
