@@ -4,6 +4,7 @@ body {
     padding: 24px;
 }
 
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
